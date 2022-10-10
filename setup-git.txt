@@ -1,0 +1,13 @@
+git init
+
+git remote add origin git@github.com:lucasvenez/abd-2022.git
+
+git add -A
+
+git config --global user.email "lucasvenez@gmail.com"
+
+git config --global user.name "Lucas Venezian Povoa"
+
+git commit -m "First commit"
+
+git push --set-upstream origin master
